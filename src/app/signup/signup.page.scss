@@ -1,0 +1,61 @@
+@import url( 'https://fonts.googleapis.com/css?family=Fjalla+One|Scope+One');
+
+:host {
+  background-image: url("https://66.media.tumblr.com/1dc22e7c23b2d0b7a2a54c70c085dca1/tumblr_omib20NFXY1rat0tqo1_500.gif");
+  opacity: .9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title-text {
+    font-family: Fjalla One;
+    font-size: 40px;
+    color: #b3b3b3;
+    text-shadow: 7px 0 70px #b3b3b3;
+  }
+
+  .smaller-text {
+    font-family: Scope One;
+    font-size: 20px;
+    color: #b3b3b3;
+  }
+
+  .even-smaller-text {
+    font-family: Scope One;
+    font-size: 13px;
+    color: #b3b3b3;
+    margin: 10px;
+    display: block;
+    align-self: flex-end;
+  }
+
+  .button {
+    display: inline-block;
+    margin: 8px;
+    position: relative;
+    width: 12em;
+    height: 3em;
+    font-family: Fjalla One;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: 500ms;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    bottom: -200px;
+  }
+
+  .red {
+    background-color: #b3b3b3;
+  }
+
+  .red:focus {
+    border: none !important;
+  }
+
+  .red:hover {
+    background-color: #b3b3b3;
+  }
+}
